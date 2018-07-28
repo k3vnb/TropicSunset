@@ -1,6 +1,6 @@
-# Generative Art
+# Dandelions and Void
 
-## Fractal Trees Etc.
-Practice Repository with P5.js
+## Recursive, Generative, Interactive Art
+Built with P5.js
 
-_Kevin Boyle_ July/August 2018
+_Kevin Boyle_ July 2018

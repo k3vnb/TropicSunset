@@ -1,0 +1,17 @@
+body {
+  position: relative;
+  height: 80vh;
+}
+
+.dandelions {
+  font-size: 55px;
+  text-align: center;
+  margin: 5%;
+  font-family: 'PT Sans', sans-serif;
+}
+.footer {
+  position: absolute;
+  font-family: 'Open Sans Condensed', sans-serif;
+  bottom: -10%;
+  right: 10%;
+}
