@@ -2,14 +2,19 @@ body {
   position: relative;
   height: 80vh;
 }
-
+.container {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 .title {
   font-size: 55px;
   text-align: left;
-  margin: 3% 5% 0% 10%;
   font-family: 'PT Sans', sans-serif;
 }
 .subtitle {
   font-family: 'Open Sans Condensed', sans-serif;
-  float: right;
+
 }
