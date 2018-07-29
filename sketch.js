@@ -3,11 +3,9 @@
 let angle = 100;
 let len1 = Math.random() * 500;
 let len2 = Math.random() * 900;
-let randomVal = 0;
+let randomVal = Math.floor(Math.random() * 500);
 
-if (len2 % 3 === 0){
-  randomVal = 255;
-}
+
 
 let slider;
 function setup(){
@@ -21,13 +19,15 @@ function draw(){
   angle= slider.value();
   stroke(0, 20, 255);
   translate(height, 200);
+  fill(255, 180, 0);
+  ellipse(randomVal, randomVal, randomVal, randomVal);
   branch(len1);
   branch2(len2);
 }
 
 function branch(len){
-  line(randomVal,0,0, -len);
-  line(0,randomVal,0, len);
+   line(randomVal,0,0, -len);
+  line(0,randomVal/2,0, len);
   line(0,angle,0, len);
   translate(0, -len);
   rotate(angle);
@@ -45,10 +45,13 @@ function branch2(len){
   line(0,angle,0, len);
   translate(len, -len);
   rotate(angle);
-  if (len > 4){
+  if (len > 14){
     rotate(angle);
     branch2 (len * .97);
     rotate(-angle);
     branch2(len * .27);
   }
+}
+function sun(len){
+
 }
