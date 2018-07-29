@@ -1,8 +1,8 @@
-# Dandelions and Void
+# Tropic Sunsets
 
 ## Recursive, Generative, Interactive Art
 Built with P5.js
 
-### Located at https://lemurriot.github.io/dandelions_and_void/
+### Located at https://lemurriot.github.io/TropicSunset/
 
 _Kevin Boyle_ July 2018
