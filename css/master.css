@@ -3,15 +3,13 @@ body {
   height: 80vh;
 }
 
-.dandelions {
+.title {
   font-size: 55px;
-  text-align: center;
-  margin: 5%;
+  text-align: left;
+  margin: 3% 5% 0% 10%;
   font-family: 'PT Sans', sans-serif;
 }
-.footer {
-  position: absolute;
+.subtitle {
   font-family: 'Open Sans Condensed', sans-serif;
-  bottom: -10%;
-  right: 10%;
+  float: right;
 }
