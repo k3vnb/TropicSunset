@@ -2,6 +2,7 @@
 
 let angle = 100;
 let len1 = Math.random() * 500;
+
 let len2 = Math.random() * 900;
 let randomVal = Math.floor(Math.random() * 500);
 
@@ -19,7 +20,7 @@ function draw(){
   angle= slider.value();
   stroke(0, 20, 255);
   translate(height, 200);
-  fill(255, 180, 0);
+  fill(255, 190, 0);
   ellipse(randomVal, randomVal, randomVal, randomVal);
   branch(len1);
   branch2(len2);
