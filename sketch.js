@@ -27,7 +27,8 @@ function draw(){
 }
 
 function branch(len){
-   line(randomVal,0,0, -len);
+
+  line(randomVal,0,0, -len);
   line(0,randomVal/2,0, len);
   line(0,angle,0, len);
   translate(0, -len);
@@ -41,6 +42,7 @@ function branch(len){
   }
 }
 function branch2(len){
+
   line(-20,len + 1,10, -len);
   line(len,20,20, len);
   line(0,angle,0, len);
@@ -52,7 +54,4 @@ function branch2(len){
     rotate(-angle);
     branch2(len * .27);
   }
-}
-function sun(len){
-
 }
